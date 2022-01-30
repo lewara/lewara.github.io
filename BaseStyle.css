@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    background-image: url('home_background.jpg');
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    font-family: 'Open Sans';
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    height: auto;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p.test1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: 10px
+}
